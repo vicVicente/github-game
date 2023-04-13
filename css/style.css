@@ -23,7 +23,7 @@
 
 @keyframes whale-animation {
     from {
-        right: -80;
+        right: -80px;
     }
     to{
         right: 100%;
