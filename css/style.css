@@ -7,7 +7,7 @@
 .game-board {
     width: 100%;
     height: 500px;
-    border-bottom: 15px solid #4f5ea5;
+    border-bottom: 5px solid #7ebaf7;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -29,6 +29,15 @@
     width: 350px;
     position: absolute;
     animation: cloud-animation 20s infinite linear;
+}
+
+.sol {
+    position: absolute;
+    width: 272px;
+}
+
+.sea {
+    width: 100%;
 }
 
 .whale {
