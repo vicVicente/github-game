@@ -28,7 +28,7 @@ function restart(){
 
     octodex.src = './images/octodex.gif'
     btnRestart.style.visibility = 'hidden';
-    octodex.style.animation = 'jump 500ms ease-out';
+    octodex.style.animation = jump;
     octodex.style.bottom = '0';
     octodex.style.width = '100px';
 
