@@ -58,7 +58,7 @@ function comeca(){
             pipe.style.animation = 'none';
             pipe.style.left = `${pipePosition}px`;
     
-            octodex.style.animation = 'none';
+            octodex.style.animation = null;
             octodex.style.bottom = `${octodexPosition}px`;
     
             octodex.src = './images/game-over.png';
